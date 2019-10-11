@@ -80,7 +80,7 @@ input#un-mute:checked~.mute img {
 }
 
 body {
-  background: url(../assets/background.png) no-repeat center center fixed;
+  background: url(../assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -165,6 +165,18 @@ body {
   z-index: 1;
   position: fixed;
   overflow: hidden;
+
+}
+
+.brexit {
+  position: fixed;
+  width: 45%;
+  right: 27%;
+  top: 94%;
+  z-index: 1;
+  /* rgba(0, 0, 0, 1); */
+  transform: scale(1);
+  animation: pulsestart 2s infinite;
 
 }
 
